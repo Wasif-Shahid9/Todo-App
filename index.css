@@ -1,0 +1,42 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(35, 32, 32);
+  height: 100vh;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+input {
+  padding: 20px;
+  width: 50%;
+  margin: 10px 0px;
+}
+input:focus {
+  outline: none;
+}
+button {
+  padding: 10px 3px;
+}
+h1 {
+  background-color: rgb(128, 73, 0);
+  color: white;
+  padding: 0px 20px;
+}
+
+#tasklist {
+  border: 2px solid red;
+  padding: 0px 10px;
+}
+.completed {
+  text-decoration: line-through;
+  
+}
